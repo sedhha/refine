@@ -17,7 +17,9 @@
     "baseUrl": ".",
     "paths": {
       "@redux/*": ["frontend/redux/*"],
-      "@components/*": ["frontend/components/*"]
+      "@components/*": ["frontend/components/*"],
+      "@interfaces/*": ["frontend/interfaces/*"],
+      "@smart-contracts/*": ["backend/smart-contracts/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
